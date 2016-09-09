@@ -2,7 +2,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`1.2.1`, `1.2`, `1`, `latest` (*Dockerfile*)](https://github.com/primait/docker-proxysql/blob/master/1.2/Dockerfile)
+-	[`1.2.2`, `1.2`, `1`, `latest` (*Dockerfile*)](https://github.com/primait/docker-proxysql/blob/master/1.2/Dockerfile)
 
 ## Build and update process
 
