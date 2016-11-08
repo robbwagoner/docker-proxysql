@@ -2,7 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`1.2.2`, `1.2`, `1`, `latest` (*Dockerfile*)](https://github.com/primait/docker-proxysql/blob/master/1.2/Dockerfile)
+-	[`1.2.2`, `1.2` (*Dockerfile*)](https://github.com/primait/docker-proxysql/blob/master/1.2/Dockerfile)
+-	[`1.3.0f`, `1.3.0`, `1.3`, `1`, `latest` (*Dockerfile*)](https://github.com/primait/docker-proxysql/blob/master/1.3/Dockerfile)
 
 ## Build and update process
 
@@ -11,13 +12,13 @@ This image is automatically built at every push of this repository and every tim
 ## Run
 
 ```
-docker run -v /path/to/proxysql.cfg:/etc/proxysql.cfg prima/proxysql:1.2
+docker run -v /path/to/proxysql.cfg:/etc/proxysql.cfg prima/proxysql:1.3
 ```
 
 Or, you can create your own derived image, with the configuration in the image itself.
 
 ```dockerfile
-FROM prima/proxysql:1.2
+FROM prima/proxysql:1.3
 COPY my-config/proxysql.cfg /etc/proxysql.cfg
 ```
 
